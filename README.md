@@ -1,0 +1,5 @@
+# Arthropod Fossil Diversity Analysis (Work In Progress)
+
+This project serves as an in-depth analysis of the diversity of arthropods from the fossil record. It will consider three major areas of potential variation in diversity: geologic age, paleoenvironment, and taxonomic groupings. Many factors will be considered for each of these areas, including the number of occurences and the distribution of various taxonomic groups such as classes and orders. 
+
+The data is obtained from the [Paleobiology Database](https://paleobiodb.org/#/), which possesses a publicly available data service API. The data was obtained using the [occs/list operation](https://paleobiodb.org/data1.2/occs/list_doc.html), which can be used to retreive a list of fossil occurrences. Many additional fields were chosen beyond the default ones to be used in later analysis. The full list of various parameters, available fields, descriptions for these, and other information are available to be browsed on their website. After retrieving the data from the API, it is written into a CSV file for reuse.
